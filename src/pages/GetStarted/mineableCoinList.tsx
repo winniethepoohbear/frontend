@@ -158,7 +158,7 @@ export const mineableCoins: MineableCoin[] = [
             description:
               'Actively developed and stable miner with low dev fee.',
             compatibleGpus: ['AMD', 'NVIDIA'],
-            fee: [0.65],
+            fee: [1.00],
             downloadLink:
               'https://github.com/develsoftware/GMinerRelease/releases',
             cmd: 'miner.exe -a eth --ssl 1 -s CLOSEST_SERVER:5555 -u WALLET_ADDRESS.WORKER_NAME --ssl 1 -s BACKUP_SERVER:5555 -u WALLET_ADDRESS.WORKER_NAME',
